@@ -1,24 +1,25 @@
-import React from 'react';
-import { Button, StyleSheet, View, Text } from 'react-native';
+import React, { Component } from 'react';
+import { Button, View, Text,  StyleSheet } from 'react-native';
 
-const AddBookScreen = (pros) => {
+const EditBookScreen = (props) =>  {
+
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Add Book</Text>
-            <Button
-                title="Go to Add Book... again"
-                onPress={() => props.navigation.push('AddBook')}
-            />
-            <Button
-                title="Go to Home"
-                onPress={() => props.navigation.navigate('Book')}
-            />
-            <Button
-                title="Go back"
-                onPress={() => props.navigation.goBack()}
-            />
+         <Text>Add Book</Text>
+         <Button
+          title="Go to Edit Book... again"
+          onPress={() => props.navigation.push('EditBook')}
+         />
+         <Button
+          title="Go to Home"
+          onPress={() => props.navigation.navigate('Book')}
+         />
+         <Button
+          title="Go back"
+          onPress={() => props.navigation.goBack()}
+         />
         </View>
-    );
+       );
 }
 
 const styles = StyleSheet.create({
@@ -48,4 +49,4 @@ const styles = StyleSheet.create({
     },
 })
 
-export default AddBookScreen;
+export default EditBookScreen;

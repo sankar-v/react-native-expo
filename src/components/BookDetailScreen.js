@@ -1,13 +1,15 @@
 import React from 'react';
-import { Button, StyleSheet, View, Text } from 'react-native';
+import { Button, View, Text, StyleSheet } from 'react-native';
 
-const AddBookScreen = (pros) => {
+//https://morioh.com/p/d06ded1f9387
+const BookDetailScreen = (props) => {
+
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Add Book</Text>
+            <Text>Book Details</Text>
             <Button
-                title="Go to Add Book... again"
-                onPress={() => props.navigation.push('AddBook')}
+                title="Go to Details... again"
+                onPress={() => props.navigation.push('BookDetails')}
             />
             <Button
                 title="Go to Home"
@@ -28,8 +30,7 @@ const styles = StyleSheet.create({
     },
     subContainer: {
         flex: 1,
-        marginBottom: 20,
-        padding: 5,
+        paddingBottom: 20,
         borderBottomWidth: 2,
         borderBottomColor: '#CCCCCC',
     },
@@ -42,10 +43,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-    textInput: {
-        fontSize: 18,
-        margin: 5,
-    },
+    detailButton: {
+        marginTop: 10
+    }
 })
 
-export default AddBookScreen;
+export default BookDetailScreen;
