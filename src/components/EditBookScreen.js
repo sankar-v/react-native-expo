@@ -8,7 +8,7 @@ const EditBookScreen = (props) =>  {
          <Text>Add Book</Text>
          <Button
           title="Go to Edit Book... again"
-          onPress={() => props.navigation.push('EditBook')}
+          onPress={() => props.navigation.push('Edit Book')}
          />
          <Button
           title="Go to Home"

@@ -9,7 +9,7 @@ const BookDetailScreen = (props) => {
             <Text>Book Details</Text>
             <Button
                 title="Go to Details... again"
-                onPress={() => props.navigation.push('BookDetails')}
+                onPress={() => props.navigation.push('Book Details')}
             />
             <Button
                 title="Go to Home"

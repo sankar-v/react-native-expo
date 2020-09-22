@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button, StyleSheet, View, Text } from 'react-native';
 
-const AddBookScreen = (pros) => {
+const AddBookScreen = (props) => {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text>Add Book</Text>
             <Button
                 title="Go to Add Book... again"
-                onPress={() => props.navigation.push('AddBook')}
+                onPress={() => props.navigation.push('Add Book')}
             />
             <Button
                 title="Go to Home"

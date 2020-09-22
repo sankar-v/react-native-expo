@@ -8,15 +8,15 @@ const BookScreen =(props) =>{
              <Text>Books List</Text>
              <Button
               title="Go to Details"
-              onPress={() => props.navigation.navigate('BookDetails')}
+              onPress={() => props.navigation.navigate('Book Details')}
              />
              <Button
               title="Go to Add Book"
-              onPress={() => props.navigation.navigate('AddBook')}
+              onPress={() => props.navigation.navigate('Add Book')}
              />
              <Button
               title="Go to Edit Book"
-              onPress={() => props.navigation.navigate('EditBook')}
+              onPress={() => props.navigation.navigate('Edit Book')}
              />
             </View>
            );
