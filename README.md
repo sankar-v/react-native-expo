@@ -19,3 +19,7 @@ e) Apollo Client - a bare bones version of the client that cna quickly help to t
 How to test:
 
 Spin up the server program in the server folder by running node server.js. Similarly run any of the clients listed above using node and test the output in the console.
+
+Next steps:
+
+Another branch that provide mock data to a navigation based React Native application and other client will be developed. This will be further extended to integratrate with a (any) database to provide an end to end solution. 
