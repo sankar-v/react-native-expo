@@ -23,3 +23,12 @@ Spin up the server program in the server folder by running node server.js. Simil
 Next steps:
 
 Another branch that provide mock data to a navigation based React Native application and other client will be developed. This will be further extended to integratrate with a (any) database to provide an end to end solution. 
+
+
+References:
+
+https://graphql.org/graphql-js/basic-types/
+https://www.apollographql.com/docs/react/get-started/
+https://www.npmjs.com/package/apollo-fetch
+https://github.com/gucheen/fetchql
+https://www.npmjs.com/package/graphql-request
