@@ -1,0 +1,22 @@
+{
+  "name": "expo-demo",
+  "version": "1.0.0",
+  "description": "GraphQL Server component with various alternatives to test any front end React Native or React or GraphiQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GraphQL",
+    "Graphiql",
+    "express",
+    "nodejs"
+  ],
+  "author": "Sankar V",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}

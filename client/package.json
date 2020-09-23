@@ -1,19 +1,25 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "node test.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "@apollo/client": "^3.2.0",
     "@react-navigation/native": "^5.7.3",
     "@react-navigation/stack": "^5.9.0",
+    "apollo-fetch": "^0.7.0",
+    "cross-fetch": "^3.0.6",
     "expo": "~38.0.8",
     "expo-image-picker": "~8.3.0",
     "expo-sharing": "~8.2.1",
     "expo-status-bar": "^1.0.2",
+    "fetchql": "^3.0.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.1.0",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
