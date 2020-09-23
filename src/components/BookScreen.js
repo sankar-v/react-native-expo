@@ -1,26 +1,65 @@
 import React from 'react';
-import {Button,  StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, FlatList, ActivityIndicator, View, Text } from 'react-native';
+import { ListItem, Button } from 'react-native-elements';
+import gql from 'graphql-tag';
+import { Query } from 'react-apollo';
 
-const BookScreen =(props) =>{
+const GET_BOOKS = gql`
+ {
+  books {
+   _id
+   title
+   author
+  }
+ }
+`;
 
-    return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-             <Text>Books List</Text>
-             <Button
-              title="Go to Details"
-              onPress={() => props.navigation.navigate('Book Details')}
-             />
-             <Button
-              title="Go to Add Book"
-              onPress={() => props.navigation.navigate('Add Book')}
-             />
-             <Button
-              title="Go to Edit Book"
-              onPress={() => props.navigation.navigate('Edit Book')}
-             />
-            </View>
-           );
+keyExtractor = (item, index) => index.toString()
+
+renderItem = ({ item }) => (
+    <ListItem
+      title={item.title}
+      onPress={() => {
+        this.props.navigation.navigate('BookDetails', {
+          id: `${item._id}`,
+        });
+      }}
+      chevron
+      bottomDivider
+    />
+  )
+
+class BookScreen extends React.Component(){
+    constructor(props){
+      super(props);
     }
+
+    render() {
+      return (
+        <Query pollInterval={500} query={GET_BOOKS}>
+          {({ loading, error, data }) => {
+            if (loading) return(
+              <View style={styles.activity}>
+                <ActivityIndicator size="large" color="#0000ff"/>
+              </View>
+            );
+            if (error) return(
+              <View style={styles.activity}>
+                <Text>`Error! ${error.message}`</Text>
+              </View>
+            );
+            return (
+              <FlatList
+                keyExtractor={this.keyExtractor}
+                data={data.books}
+                renderItem={this.renderItem}
+              />
+            );
+          }}
+        </Query>
+      );
+    }
+}
 
 const styles = StyleSheet.create({
     container: {
