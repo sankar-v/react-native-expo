@@ -1,0 +1,110 @@
+[
+    {
+        "id" : 1,
+        "isbn" : "99921-58-10-7",
+        "title": "Qatar NCCAH Doha",
+        "author" : " B & B ",
+        "description" : "Qatar NCCAH, Doha",
+        "publisher" : "NCCAH, Doha",
+        "published_year" : "2008"
+    },
+    {
+        "id" : 2,
+        "isbn" : "9971-5-0210-0",
+        "title": "Singapore World Scientific",
+        "author" : "Singapore World Scientific",
+        "description" : "Singapore World Scientific",
+        "publisher" : "Singapore World Scientific",
+        "published_year" : "2010"
+    },
+    {
+        "id" : 3,
+        "isbn" : "960-425-059-0",
+        "title": "Greece Sigma Publications",
+        "author" : "Greece Sigma Publications",
+        "description" : "Greece Sigma Publications",
+        "publisher" : "Greece Sigma Publications",
+        "published_year" : "2020"
+    },
+    {
+        "id" : 4,
+        "isbn" : "80-902734-1-6",
+        "title": "Czech Republic; Slovakia Taita Publishers",
+        "author" : "Czech Republic; Slovakia Taita Publishers",
+        "description" : "Czech Republic; Slovakia Taita Publishers",
+        "publisher" : "Czech Republic; Slovakia Taita Publishers",
+        "published_year" : "2002"
+    },
+    {
+        "id" : 5,
+        "isbn" : "85-359-0277-5",
+        "title": "Brazil Companhia das Letras",
+        "author" : "Brazil Companhia das Letras",
+        "description" : "Brazil Companhia das Letras",
+        "publisher" : "Brazil Companhia das Letras",
+        "published_year" : "2000"
+    },
+    {
+        "id" : 6,
+        "isbn" : "1-84356-028-3",
+        "title": "English-speaking area Simon Wallenberg Press",
+        "author" : "English-speaking area Simon Wallenberg Press",
+        "description" : "English-speaking area Simon Wallenberg Press",
+        "publisher" : "English-speaking area Simon Wallenberg Press",
+        "published_year" : "2001"
+    },
+    {
+        "id" : 7,
+        "isbn" : "0-684-84328-5",
+        "title": "English-speaking area Scribner",
+        "author" : "English-speaking area Scribner",
+        "description" : "English-speaking area Scribner",
+        "publisher" : "English-speaking area Scribner",
+        "published_year" : "1998"
+    },
+    {
+        "id" : 8,
+        "isbn" : "0-8044-2957-X",
+        "title": "English-speaking area Frederick Ungar",
+        "author" : "English-speaking area Frederick Ungar",
+        "description" : "English-speaking area Frederick Ungar",
+        "publisher" : "English-speaking area Frederick Ungar",
+        "published_year" : "1999"
+    },
+    {
+        "id" : 9,
+        "isbn" : "0-85131-041-9",
+        "title": "English-speaking area J. A. Allen & Co.",
+        "author" : "English-speaking area J. A. Allen & Co.",
+        "description" : "English-speaking area J. A. Allen & Co.",
+        "publisher" : "English-speaking area J. A. Allen & Co.",
+        "published_year" : "1975"
+    },
+    {
+        "id" : 10,
+        "isbn" : "93-86954-21-4",
+        "title": "English-speaking area Edupedia Publications Pvt Ltd",
+        "author" : "English-speaking areaEdupedia Publications Pvt Ltd",
+        "description" : "English-speaking area Edupedia Publications Pvt Ltd",
+        "publisher" : "English-speaking area Edupedia Publications Pvt Ltd",
+        "published_year" : "1974"
+    },
+    {
+        "id" : 11,
+        "isbn" : "0-943396-04-2",
+        "title": "English-speaking area Willmann–Bell",
+        "author" : "English-speaking area Willmann–Bell",
+        "description" : "English-speaking area Willmann–Bell",
+        "publisher" : "English-speaking area Willmann–Bell",
+        "published_year" : "1950"
+    },
+    {
+        "id" : 12,
+        "isbn" : "0-9752298-0-X",
+        "title": "English-speaking area KT Publishing",
+        "author" : "English-speaking area KT Publishing",
+        "description" : "English-speaking area KT Publishing",
+        "publisher" : "English-speaking area KT Publishing",
+        "published_year" : "1960"
+    }
+]
